@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import "./achex.css";
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin", "latin-ext"],
@@ -9,9 +10,9 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "ACHEX A.G. cierra sus puertas",
+  title: "Línea de tiempo ACHEX — 2018 a 2026",
   description:
-    "Agradecemos tu interés y apoyo en estos últimos años pero llegó la hora de decir adiós. Más información pronto.",
+    "ACHEX nació en 2018 como una iniciativa de profesionales del sector XR chileno. Se constituyó legalmente el 22 de julio de 2022 y completó su ciclo en 2026.",
   icons: {
     icon: "/favicon.png",
   },
